@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/combiti/public_html/1233
+    - /bin/cp *.html $DEPLOYPATH
